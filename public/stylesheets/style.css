@@ -1,0 +1,31 @@
+h1 {
+  font-family: American Typewriter, serif;
+  font-size: 40px;
+  color:#FF9933;
+  text-align: center;
+  text-shadow: 2px 2px #FF6600;
+
+}
+
+.signup_info {
+  font-family: AppleMyungjo, serif;
+  color: #FF6600;
+  text-align: center;
+  border: 5px dotted pink;
+  padding: 10px;
+  text-decoration: underline;
+  background-color: #FFFFCC;
+  text-shadow: 1px 1px #FFCCCC;
+  font-style: bold;
+}
+
+button {
+  font-family: American Typewriter, serif;
+  color: #FF9933;
+  font-size: 20px;
+  box-shadow: 10px 10px 5px;
+}
+
+body {
+  background-color: #FFCCCC;
+}
