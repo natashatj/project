@@ -1,31 +1,62 @@
 h1 {
   font-family: American Typewriter, serif;
   font-size: 40px;
-  color:#FF9933;
   text-align: center;
-  text-shadow: 2px 2px #FF6600;
+  text-shadow:2px 2px #009933;
+  color: #85FFAD;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 
 }
 
-.signup_info {
-  font-family: AppleMyungjo, serif;
-  color: #FF6600;
+.info {
+  font-family: Courier, serif;
   text-align: center;
-  border: 5px dotted pink;
   padding: 10px;
-  text-decoration: underline;
-  background-color: #FFFFCC;
-  text-shadow: 1px 1px #FFCCCC;
-  font-style: bold;
+   border: 3px dotted #009933;
+  background-color: #ADEBFF;
+  box-shadow: 10px 10px 5px #99FF99;
+  border-radius: 20px;
+  margin: 30px;
 }
 
 button {
   font-family: American Typewriter, serif;
-  color: #FF9933;
   font-size: 20px;
   box-shadow: 10px 10px 5px;
+  height: 44px;
+  background-color: #99FF99;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
 }
 
 body {
-  background-color: #FFCCCC;
+  background-color: #75FFFF;
+}
+
+div {
+  padding: 10px 10px;
+  margin: 10px;
+  color: #009933;
+}
+
+input: focus {
+  outline: none;
+  outline: 2px solid #99FF99;
+  box-shadow: 0 0 2px #99FF99;
+
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #99FF99;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 2px;
+
+
 }

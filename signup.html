@@ -2,26 +2,32 @@
 <html>
 <head>
   <title>Nat's Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
 </head>
 <body>
-  <h1>Signup!</h1>
-  <form method="POST" action="/signup" class="signup_info">
-    <div>
+  <h1>Sign up</h1>
+  <form method="POST" action="/signup" class="info">
+    <div class="form-group">
       <label for="first_name">First Name:</label>
-      <input type="first_name" name="first_name" id="first_name">
+      <input type="first_name" name="first_name" id="first_name" class="form-control">
     </div>
-    <div>
+    <div class="form-group">
       <label for="last_name">Last Name:</label>
-      <input type="last_name" name="last_name" id="last_name">
+      <input type="last_name" name="last_name" id="last_name" class="form-control">
     </div>
-    <div>
+    <div class="form-group">
       <label for="email">Email:</label>
-      <input type="email" name="email" id="email">
+      <input type="email" name="email" id="email" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" class="form-control">
     </div>
     <div>
-      <label for="password">Password:</label>
-      <input type="password" name="password" id="password">
+      <img src="http://mimithorisson.com/wp-content/uploads/2013/02/oysterfritters.jpg">
+      <img src="http://40.media.tumblr.com/648d54fa1e6ed19ba2ad0805d1daaeb6/tumblr_mhtsy0JiY61qgc2p0o1_1280.jpg">
+      <img src="https://41.media.tumblr.com/451850d406c61de8b3e0300d35edbf19/tumblr_mh0eg0KKus1rr0119o1_500.jpg">
     </div>
     <div>
       <button type="submit">Submit</button>
